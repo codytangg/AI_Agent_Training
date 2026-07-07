@@ -25,6 +25,10 @@ Thumbs.db
 *.swp
 *~
 
+# === 暫存備份 ===
+_old_*/
+.backup_*
+
 # === 編輯器 ===
 .vscode/
 .idea/
