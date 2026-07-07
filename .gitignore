@@ -1,0 +1,30 @@
+# === 敏感資料保護 ===
+# 環境變數檔（常含 API key、password）
+.env
+.env.*
+.env.local
+
+# 密鑰檔
+*.key
+*.pem
+*.token
+
+# 敏感資料 folder
+secrets/
+credentials/
+
+# === 對話紀錄 ===
+# 保留本地，不上傳
+sessions/
+
+# === 系統暫存檔 ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
+
+# === 編輯器 ===
+.vscode/
+.idea/
